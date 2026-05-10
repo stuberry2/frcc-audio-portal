@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: frcc-audio-portal
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
